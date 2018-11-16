@@ -1,1 +1,28 @@
-/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.pane1 {
+	-fx-background-image: url("sample5.jpg");
+	-fx-background-size: cover;
+}
+
+.pane2 {
+	-fx-background-image: url("sample6.jpg");
+	-fx-background-size: cover;
+}
+
+.pane3 {
+	-fx-background-image: url("sample7.jpg");
+	-fx-background-size: cover;
+}
+
+.pane4 {
+	-fx-background-image: url("sample8.jpg");
+	-fx-background-size: cover;
+}
+
+
+.seccionLateral {
+	-fx-background-color:  #04afff;
+}
+
+.seccionCuerpo {
+	-fx-background-color:  #00cc7a;
+}
