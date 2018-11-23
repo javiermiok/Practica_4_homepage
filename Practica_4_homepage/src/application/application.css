@@ -26,3 +26,7 @@
 .seccionCuerpo {
 	-fx-background-color:  #00cc7a;
 }
+
+.homeBTNS :hover {
+    -fx-background-color: #ff895e;
+}

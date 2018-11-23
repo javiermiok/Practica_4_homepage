@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -36,17 +37,25 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <JFXButton layoutX="554.0" layoutY="10.0" prefHeight="175.0" prefWidth="272.0" styleClass="seccionLateral" text="SECCIÓN 1">
+            <JFXButton layoutX="554.0" layoutY="10.0" opacity="0.5" prefHeight="175.0" prefWidth="272.0" text="SECCIÓN 1">
                <font>
                   <Font size="14.0" />
                </font>
+               <styleClass>
+                  <String fx:value="seccionLateral" />
+                  <String fx:value="homeBTNS" />
+               </styleClass>
             </JFXButton>
-            <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="175.0" prefWidth="272.0" styleClass="seccionCuerpo" text="SECCIÓN 2" GridPane.columnIndex="1">
+            <JFXButton layoutX="10.0" layoutY="10.0" opacity="0.5" prefHeight="175.0" prefWidth="272.0" text="SECCIÓN 2" GridPane.columnIndex="1">
                <font>
                   <Font size="14.0" />
                </font>
+               <styleClass>
+                  <String fx:value="seccionCuerpo" />
+                  <String fx:value="homeBTNS" />
+               </styleClass>
             </JFXButton>
-            <JFXButton layoutX="282.0" layoutY="10.0" prefHeight="175.0" prefWidth="272.0" styleClass="seccionLateral" text="SECCIÓN 3" GridPane.columnIndex="2">
+            <JFXButton layoutX="282.0" layoutY="10.0" opacity="0.5" prefHeight="175.0" prefWidth="272.0" styleClass="seccionLateral" text="SECCIÓN 3" GridPane.columnIndex="2">
                <font>
                   <Font size="14.0" />
                </font>
@@ -101,6 +110,36 @@
               </rowConstraints>
                <children>
                   <JFXButton prefHeight="180.0" prefWidth="320.0" text="BUTTON 1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton prefHeight="180.0" prefWidth="320.0" text="BUTTON 2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton prefHeight="180.0" prefWidth="320.0" text="BUTTON 3" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton prefHeight="180.0" prefWidth="320.0" text="BUTTON 4" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton prefHeight="180.0" prefWidth="320.0" text="BUTTON 5" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton prefHeight="180.0" prefWidth="320.0" text="BUTTON 6" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton prefHeight="180.0" prefWidth="320.0" text="BUTTON 7" GridPane.rowIndex="6">
                      <font>
                         <Font size="18.0" />
                      </font>
