@@ -45,7 +45,7 @@ public class Controlador implements Initializable {
 
             FadeTransition fadeTransition1=new FadeTransition(Duration.seconds(0.5),opacityPane);
             fadeTransition1.setFromValue(0);
-            fadeTransition1.setToValue(0.6);
+            fadeTransition1.setToValue(0.75);
             fadeTransition1.play();
 
             TranslateTransition translateTransition1=new TranslateTransition(Duration.seconds(0.5),drawerPane);

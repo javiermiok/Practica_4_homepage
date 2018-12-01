@@ -21,10 +21,13 @@
 
 .seccionLateral {
 	-fx-background-color:  #04afff;
+	-fx-text-fill: #ffffff;
 }
 
 .seccionCuerpo {
 	-fx-background-color:  #00cc7a;
+	-fx-text-fill: #ffffff;
+	
 }
 
 .homeBTNS :hover {
